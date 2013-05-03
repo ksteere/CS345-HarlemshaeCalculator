@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC68DC221733079E002B4D85 /* HarlemShake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC68DC1F1733079E002B4D85 /* HarlemShake.mp3 */; };
-		AC68DC231733079E002B4D85 /* VLMHarlemShake.m in Sources */ = {isa = PBXBuildFile; fileRef = AC68DC211733079E002B4D85 /* VLMHarlemShake.m */; };
+		65074E491733403B007C3D51 /* HarlemShake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65074E461733403B007C3D51 /* HarlemShake.mp3 */; };
+		65074E4A1733403B007C3D51 /* VLMHarlemShake.m in Sources */ = {isa = PBXBuildFile; fileRef = 65074E481733403B007C3D51 /* VLMHarlemShake.m */; };
 		AC68DC2817330913002B4D85 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC68DC2717330913002B4D85 /* AVFoundation.framework */; };
 		AC68DC2A17330919002B4D85 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC68DC2917330919002B4D85 /* QuartzCore.framework */; };
 		AC68DC2C17330921002B4D85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC68DC2B17330921002B4D85 /* UIKit.framework */; };
@@ -35,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC68DC1F1733079E002B4D85 /* HarlemShake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HarlemShake.mp3; sourceTree = "<group>"; };
-		AC68DC201733079E002B4D85 /* VLMHarlemShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLMHarlemShake.h; sourceTree = "<group>"; };
-		AC68DC211733079E002B4D85 /* VLMHarlemShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLMHarlemShake.m; sourceTree = "<group>"; };
+		65074E461733403B007C3D51 /* HarlemShake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HarlemShake.mp3; sourceTree = "<group>"; };
+		65074E471733403B007C3D51 /* VLMHarlemShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLMHarlemShake.h; sourceTree = "<group>"; };
+		65074E481733403B007C3D51 /* VLMHarlemShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLMHarlemShake.m; sourceTree = "<group>"; };
 		AC68DC2717330913002B4D85 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AC68DC2917330919002B4D85 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AC68DC2B17330921002B4D85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -82,15 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AC68DC1E1733079E002B4D85 /* VLMHarlemShake */ = {
+		65074E451733403B007C3D51 /* VLMHarlemShake */ = {
 			isa = PBXGroup;
 			children = (
-				AC68DC1F1733079E002B4D85 /* HarlemShake.mp3 */,
-				AC68DC201733079E002B4D85 /* VLMHarlemShake.h */,
-				AC68DC211733079E002B4D85 /* VLMHarlemShake.m */,
+				65074E461733403B007C3D51 /* HarlemShake.mp3 */,
+				65074E471733403B007C3D51 /* VLMHarlemShake.h */,
+				65074E481733403B007C3D51 /* VLMHarlemShake.m */,
 			);
 			name = VLMHarlemShake;
-			path = "../../../CS345-VLMHarlem/VLMHarlemShake";
+			path = ../VLMHarlemShake;
 			sourceTree = "<group>";
 		};
 		AC68DC26173308FA002B4D85 /* Frameworks */ = {
@@ -131,7 +131,7 @@
 				ED35E6E716C5453F001ED82E /* iCViewController.h */,
 				ED35E6E816C5453F001ED82E /* iCViewController.m */,
 				ED35E6EA16C5453F001ED82E /* iCViewController.xib */,
-				AC68DC1E1733079E002B4D85 /* VLMHarlemShake */,
+				65074E451733403B007C3D51 /* VLMHarlemShake */,
 				ED35E6D616C5453F001ED82E /* Supporting Files */,
 			);
 			path = iOS_Calculator;
@@ -228,7 +228,7 @@
 				ED35E6E416C5453F001ED82E /* Default@2x.png in Resources */,
 				ED35E6E616C5453F001ED82E /* Default-568h@2x.png in Resources */,
 				ED35E6EC16C5453F001ED82E /* iCViewController.xib in Resources */,
-				AC68DC221733079E002B4D85 /* HarlemShake.mp3 in Resources */,
+				65074E491733403B007C3D51 /* HarlemShake.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +265,7 @@
 				ED35E6DC16C5453F001ED82E /* main.m in Sources */,
 				ED35E6E016C5453F001ED82E /* iCAppDelegate.m in Sources */,
 				ED35E6E916C5453F001ED82E /* iCViewController.m in Sources */,
-				AC68DC231733079E002B4D85 /* VLMHarlemShake.m in Sources */,
+				65074E4A1733403B007C3D51 /* VLMHarlemShake.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
